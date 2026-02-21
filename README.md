@@ -14,7 +14,7 @@
 
 ParkinsonVoiceNet is an end-to-end machine learning pipeline that analyzes raw voice recordings to detect Parkinson's disease. The project spans the full lifecycle of a data science project — from exploratory data analysis and acoustic feature engineering to deep learning model development and deployment as an interactive web application.
 
-The system extracts 142-dimensional acoustic feature vectors (MFCC, ZCR, Mel-Spectrogram) from `.wav` files and feeds them into a custom 1D CNN architecture trained on 540 voice recordings, achieving **88% accuracy** and an **F1 score of 0.897**.
+The system extracts 142-dimensional acoustic feature vectors (MFCC, ZCR, Mel-Spectrogram) from `.wav` files and feeds them into a custom 1D CNN architecture trained on 540 voice recordings, achieving **88% accuracy** and an **F1 score of 0.88**.
 
 > ⚠️ **Disclaimer:** This application is intended for research purposes only and should not be used for clinical diagnosis.
 
