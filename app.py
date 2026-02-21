@@ -117,4 +117,4 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.caption("⚠️ Bu uygulama yalnızca araştırma amaçlıdır. Klinik teşhis için kullanılmamalıdır. Model %82 doğruluk oranıyla çalışmaktadır.")
+st.caption("⚠️ Bu uygulama yalnızca araştırma amaçlıdır. Klinik teşhis için kullanılmamalıdır. Model %88.9 doğruluk oranıyla çalışmaktadır.")
