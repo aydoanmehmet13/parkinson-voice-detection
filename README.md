@@ -22,7 +22,7 @@ The system extracts 142-dimensional acoustic feature vectors (MFCC, ZCR, Mel-Spe
 
 ## 🖥️ Web Application Preview
 <p align="center">
-<img src="assets/Streamlit.png" alt="ParkinsonVoiceNet Streamlit UI" width="600">
+<img src="assets/streamlit.png" width="600">
 </p>
 
 ## 🎯 Key Highlights
