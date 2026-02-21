@@ -14,7 +14,7 @@
 
 ParkinsonVoiceNet is an end-to-end machine learning pipeline that analyzes raw voice recordings to detect Parkinson's disease. The project spans the full lifecycle of a data science project — from exploratory data analysis and acoustic feature engineering to deep learning model development and deployment as an interactive web application.
 
-The system extracts 142-dimensional acoustic feature vectors (MFCC, ZCR, Mel-Spectrogram) from `.wav` files and feeds them into a custom 1D CNN architecture trained on 540 voice recordings, achieving **88.9% accuracy** and an **F1 score of 0.897**.
+The system extracts 142-dimensional acoustic feature vectors (MFCC, ZCR, Mel-Spectrogram) from `.wav` files and feeds them into a custom 1D CNN architecture trained on 540 voice recordings, achieving **88% accuracy** and an **F1 score of 0.897**.
 
 > ⚠️ **Disclaimer:** This application is intended for research purposes only and should not be used for clinical diagnosis.
 
@@ -40,7 +40,7 @@ The system extracts 142-dimensional acoustic feature vectors (MFCC, ZCR, Mel-Spe
 
 | Model | Accuracy | F1 Score | Notes |
 |---|---|---|---|
-| **1D CNN** | **0.889** | **0.897** | Best performer |
+| **1D CNN** | **0.88** | **0.88** | Best performer |
 | XGBoost | 0.591 | 0.600 | Baseline |
 | Random Forest | 0.589 | 0.600 | Baseline |
 
@@ -50,9 +50,9 @@ The 1D CNN significantly outperforms classical ML models because convolutional l
 
 | Class | Precision | Recall | F1 Score |
 |---|---|---|---|
-| Healthy (0) | 0.76 | 0.87 | 0.81 |
-| Parkinson (1) | 0.89 | 0.79 | 0.83 |
-| **Weighted Avg** | **0.83** | **0.82** | **0.82** |
+| Healthy (0) | 0.80 | 0.96 | 0.87 |
+| Parkinson (1) | 0.96 | 0.82 | 0.88 |
+| **Weighted Avg** | **0.89** | **0.88** | **0.88** |
 
 ---
 
